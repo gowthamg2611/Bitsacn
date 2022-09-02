@@ -1,0 +1,5 @@
+set term png
+set out "compound-cwnd.png"
+set xrange [0:500]
+set yrange [0:2500]
+plot "compound-result0" u 1:2 w li
